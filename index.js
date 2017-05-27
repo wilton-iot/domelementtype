@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 //Types of elements found in the DOM
 module.exports = {
 	Text: "text", //Text
@@ -13,3 +14,5 @@ module.exports = {
 		return elem.type === "tag" || elem.type === "script" || elem.type === "style";
 	}
 };
+
+return module.exports;});
