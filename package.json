@@ -12,5 +12,9 @@
     "htmlparser2"
   ],
   "author": "Felix Boehm <me@feedic.com>",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "wilton": {
+    "excludes": [
+    ]
+  }
 }
